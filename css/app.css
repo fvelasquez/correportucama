@@ -1,0 +1,397 @@
+/* Eric Meyer's Reset Reloaded *//* http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/ */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}body {line-height: 1;}table {border-collapse: collapse;border-spacing: 0;}
+
+/* =Clearfix (all browsers)--------------------------------*/.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}/* IE6 */ * html .clearfix {height: 1%;}/* IE7 */*:first-child+html .clearfix {min-height: 1px;}
+
+html, body, * { font-family: "Lucida Sans", Arial, Helvetica; }
+
+#container {
+	width: 760px;
+	margin: 0 auto;
+	background: url(../images/appbg.jpg) #ffffff no-repeat top center;
+}
+#header {
+	width: 740px;
+	height: 160px;
+	padding: 0 5px 0px 15px;
+}
+#appmenu{
+	margin: -37px 0 0 0;
+}
+#appmenu table, #appmenu tr, #appmenu td{
+	vertical-align: bottom;
+}
+#maintop { margin:0; padding:0; }
+#mainbot { margin:-2px 0 0 0; padding:0; }
+
+#appmenu a{
+	margin-left: -5px;
+	text-decoration: none;
+}
+
+#appmenu2{
+	margin: -46px 0 41px 403px;
+}
+#appmenu2 a{
+	margin-left: -5px;
+	text-decoration: none;
+	background-color: #0567B4;
+	font-size: 10px; 
+	color: white;
+	padding: 5px
+}
+
+#appheadertab {
+	background: url(../images/tabbg.png) no-repeat top center;
+	height: 150px;
+	width: 290px;
+	margin: -125px -10px 0px 0;
+	float: right;
+	position: relative;
+}
+#body {
+	min-height: 500px;
+	padding: 0px 10px;
+}
+
+#messages{
+	position: absolute;
+	top: 180px;
+	width: 450px;
+	padding: 30px 0px;
+	left: 50%;
+	margin-left: -225px;
+	font-size: 10px;
+	background-color: #FFFFAA;
+	border: 2px solid #EEEECC;
+	color: maroon;
+	text-align: center;
+	font-weight: bold;
+	z-index: 999;
+	
+}
+/************************************************************************
+PANTALLA DE CARRERA
+************************************************************************/
+#appbody{
+	background-color: white;
+	padding: 10px;
+	position: relative;
+	z-index: 80;
+}
+#appbody_shadow {
+    background-color: #94A5AD;
+    float: left;
+    height: 670px;
+    margin: -9px 0 0 10px;
+    position: relative;
+    width: 738px;
+    z-index: 70;
+}
+#appdowncounter { 
+	position: absolute;
+	float: left;
+	background-color: black;
+	padding: 10px;
+	top:10px;
+	color:#FFFFFF;
+	font-size: 10px;
+}
+#appnextpista {
+	position: absolute;
+	right:10px;
+	top:10px;
+}
+#appanimation{
+}
+#cielo{
+	background-image: url(../images/cielobg.jpg);
+	height: 550px;
+}
+#nubes {
+	background-image: url(../images/nubesbg.png);
+	height: 50px;
+	margin-top: -550px;
+}
+#montanias{
+	background-image: url(../images/montaniasbg.png);
+	margin-top: -550px;
+	height: 122px;
+}
+#pista{
+	background-image: url(../images/pistabg.jpg);
+	height: 550px;
+	margin-top: 0px;
+}
+#corredores{
+    float: left;
+    margin-top: -560px;
+}
+
+#corredorhead {
+	height: 40px;
+	width: 38px;
+	background: url(../images/cabecita.png) no-repeat top center;
+	position: relative;
+	padding: 3px 0px 2px 6px;
+	margin: -25px auto 45px;
+	
+}	
+#appcorredordetalle {
+	position: relative;
+	float: left;
+	height: 400px;
+	width: 700px;
+	margin: -545px 0px 0px 10px;
+	background-color: white;
+	z-index: 150;
+	border-radius:10px;
+	-moz-border-radius: 10px;
+}
+#appcorredordetalle_logo{
+	background: url(../images/logocarrera.png) no-repeat top center;
+	height: 140px;
+	width: 350px;
+	position: relative;
+	margin: -50px auto;
+}
+#appcorredordetalle_cerrar{
+	font-size: 15px;
+	font-weight: bold;
+	float: right;
+	margin: 10px 10px 0 0;
+}
+#appcorredordetalle_cerrar a{
+	color: red;
+	text-decoration: none;
+	padding: 5px;
+}
+#appcorredordetalle_cerrar a:hover{
+	background-color: red;
+	color: white;
+}
+#cerrardialogo {
+	background: url(../images/cerrarcarrera_dialogo.png) no-repeat top left;
+	width: 305px;
+	height: 85px;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 35px 10px 10px 35px
+}
+#cerrardialogo h2 {
+	font-size: 16px;
+}
+
+#comments { 
+	background: white;
+	overflow: auto;
+}
+/************************************************************************
+FICHA DEL JUGADOR
+************************************************************************/
+#fichacolleft{
+	float: left;
+	width: 300px;
+	margin: 70px 0px 0px 0px;
+}
+#fichacolright {
+    float: left;
+    height: 250px;
+    margin: 70px 0 0 -60px;
+    position: relative;
+    width: 450px;
+    z-index: 190;
+}
+
+#ficha_player{
+	background: url(../images/cuerpo_ficha.png) no-repeat bottom center;
+	height: 225px;
+	width: 120px;
+	margin: 0 auto;
+}
+#ficha_face{
+	background: url(../images/cabeza_ficha.png) no-repeat top left;
+	height: 125px;
+	width: 120px;
+	margin: 0 auto;
+	padding: 9px 0 0 10px;
+}
+#ficha_face_mask{
+	width: 100px;
+	height: 100px;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+#ficha_number {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 25px;
+    margin: 0 auto;
+    text-align: center;
+    width: 30px;
+}
+#fichacolright h3{
+	font-size: 24px;
+	font-weight: bold;
+	color: #2796eb;
+	margin-left: 32px;
+}
+#punteo{
+	background: url(../images/punteobg.jpg) no-repeat top left;
+	height: 64px;
+	width: 341px;
+	line-height: 64px;
+	margin-top: 10px;
+	padding-left: 20px
+}
+#punteo span{
+	font-weight: bold;
+}
+#votar_btn{
+	float:right;
+	margin: 3px 30px 0 0;
+}
+#badge{
+	background: url(../images/postit.png) no-repeat top left;
+	height: 110px;
+	width: 115px;
+	padding: 15px 4px 0px 4px;
+	text-align: center;
+	float: left;
+	margin-top: 10px;
+}
+#badge h3{
+	font-size: 14px;
+	color: black;
+	margin: 3px 0px 2px 3px;
+	text-align: center;
+}
+#sharesocial{
+	float: right;
+	width: 300px;
+	margin-top: 10px;
+}
+/************************************************************************
+FICHA DEL JUGADOR EN EL TAB (RANDOM PICKED)
+************************************************************************/
+#fichacolleft_tab{
+	float: left;
+	width: 100px;
+	margin: 12px 0px 0px 0px;
+}
+#fichacolright_tab {
+    float: left;
+    height: 100px;
+    margin: 12px 0 0 0;
+    padding-top: 20px;
+    position: relative;
+    width: 165px;
+    z-index: 190;
+}
+
+#ficha_player_tab{
+	background: url(../images/cuerpo_ficha_tab.png) no-repeat bottom center;
+	height: 115px;
+	width: 120px;
+	margin: 0 auto;
+}
+#ficha_face_tab{
+	background: url(../images/cabeza_ficha_tab.png) no-repeat top left;
+	height: 60px;
+	width: 55px;
+	margin: 0 auto;
+	padding: 4px 0 0 5px;
+}
+#ficha_face_mask_tab{
+	width: 50px;
+	height: 50px;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+
+#ficha_number_tab {
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 25px;
+    margin: 0 auto;
+    text-align: center;
+    width: 30px;
+}
+#fichacolright_tab h3{
+	font-size: 12px;
+	font-weight: bold;
+	color: #2796eb;
+	margin-left: 32px;
+}
+#punteo_tab{
+	background: url(../images/punteobg.jpg) no-repeat top left;
+	height: 32px;
+	width: 135px;
+	line-height: 32px;
+	margin-top: 10px;
+	padding-left: 35px
+}
+#punteo_tab span{
+	font-weight: bold;
+	font-size: 12px;
+}
+#votar_btn_tab{
+	float:right;
+	margin: 6px 0px 0 0;
+}
+/************************************************************************
+INSTRUCCIONES
+************************************************************************/
+#insul { list-style: decimal !important; }
+#insul li{ padding: 15px 0 0 15px; font-size: 12px; line-height: 25px; }
+/************************************************************************
+TOOLTIP
+************************************************************************/
+#tooltip {
+    position:absolute;
+    z-index:9999;
+    color:#fff;
+    font-size:12px;
+    width:230px;   
+}
+ 
+/* IE hack */
+*html #tooltip .tipHeader {margin-bottom:-6px;}
+ 
+#tooltip .tipBody {
+    background-color:#000;
+    padding:15px 15px 15px 25px;
+}
+ 
+#footer{
+	background: url(../images/doblezpapel.png) no-repeat top center;
+	width: 100%;
+	height: 75px;
+	margin-top: -22px;
+	position: relative;
+	z-index: 150;
+}
+
+/************************************************************************
+POSICIONES
+************************************************************************/
+#posbody{
+	overflow: auto;
+	height: 650px;
+	width: 720px
+
+}
+.posNumber{ font-size: 20px; font-weight: bold; color: grey; padding: 2px 5px }
+.postitle{ 
+	font-size: 20px; 
+	font-weight: bold;
+	}
+.posbody{
+	font-size: 11px; 
+}
